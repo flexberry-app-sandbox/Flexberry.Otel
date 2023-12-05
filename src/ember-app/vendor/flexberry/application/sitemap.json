@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Отель",
+  "applicationTitle": "Отель",
+  "items": [
+    {
+      "link": null,
+      "menuName": "отель",
+      "caption": "Отель",
+      "title": "Отель",
+      "children": [
+        {
+          "link": "i-i-s-otel-допуск-l",
+          "menuName": null,
+          "caption": "Допуск",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel-отели-l",
+          "menuName": null,
+          "caption": "Отели",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel-гости-l",
+          "menuName": null,
+          "caption": "Гости",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel-авторизация-l",
+          "menuName": null,
+          "caption": "Авторизация",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel-комнаты-l",
+          "menuName": null,
+          "caption": "Комнаты",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

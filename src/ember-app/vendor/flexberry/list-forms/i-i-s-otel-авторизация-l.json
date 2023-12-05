@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otel-авторизация-e",
+  "editForm": "i-i-s-otel-авторизация-e",
+  "external": false,
+  "caption": "Авторизация",
+  "name": "IISOtelАвторизацияL",
+  "className": "АвторизацияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otel-авторизация",
+      "modelProjection": "АвторизацияL"
+    }
+  ]
+}

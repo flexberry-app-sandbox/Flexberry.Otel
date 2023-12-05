@@ -1,0 +1,47 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Комнаты",
+      "projection": "КомнатыL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Гости",
+      "projection": "ГостиL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Комнаты.Отели",
+      "projection": "",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Гости.Авторизация",
+      "projection": "",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Допуск",
+  "name": "IISOtelДопускE",
+  "className": "ДопускE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otel-допуск",
+      "modelProjection": "ДопускE"
+    }
+  ]
+}

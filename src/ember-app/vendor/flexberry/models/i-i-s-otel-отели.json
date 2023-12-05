@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISOtelОтели",
+  "modelName": "i-i-s-otel-отели",
+  "className": "Отели",
+  "nameSpace": "IIS.Otel",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "адрес",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "звезды",
+      "type": "i-i-s-otel-звезда",
+      "flexberryType": "Звезда",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименования",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОтелиE",
+      "modelName": "i-i-s-otel-отели",
+      "attrs": [
+        {
+          "name": "наименования",
+          "caption": "Наименования",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "адрес",
+          "caption": "Адрес",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "звезды",
+          "caption": "Звезды",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОтелиL",
+      "modelName": "i-i-s-otel-отели",
+      "attrs": [
+        {
+          "name": "наименования",
+          "caption": "Наименования",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "адрес",
+          "caption": "Адрес",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "звезды",
+          "caption": "Звезды",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
