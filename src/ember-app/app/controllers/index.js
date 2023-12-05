@@ -22,7 +22,7 @@ export default Controller.extend({
             link: 'i-i-s-otel-допуск-l',
             caption: i18n.t('forms.application.sitemap.отель.i-i-s-otel-допуск-l.caption'),
             title: i18n.t('forms.application.sitemap.отель.i-i-s-otel-допуск-l.title'),
-            icon: 'building',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-otel-отели-l',
@@ -33,19 +33,19 @@ export default Controller.extend({
             link: 'i-i-s-otel-гости-l',
             caption: i18n.t('forms.application.sitemap.отель.i-i-s-otel-гости-l.caption'),
             title: i18n.t('forms.application.sitemap.отель.i-i-s-otel-гости-l.title'),
-            icon: 'briefcase',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-otel-авторизация-l',
             caption: i18n.t('forms.application.sitemap.отель.i-i-s-otel-авторизация-l.caption'),
             title: i18n.t('forms.application.sitemap.отель.i-i-s-otel-авторизация-l.title'),
-            icon: 'book',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-otel-комнаты-l',
             caption: i18n.t('forms.application.sitemap.отель.i-i-s-otel-комнаты-l.caption'),
             title: i18n.t('forms.application.sitemap.отель.i-i-s-otel-комнаты-l.title'),
-            icon: 'folder',
+            icon: 'book',
             children: null
           }]
         }
